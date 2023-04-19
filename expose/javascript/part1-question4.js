@@ -1,2 +1,4 @@
-The function will return an array [50, 100, 150] because it calculates the discounted price of each item in the prices array and stores it in the discounted array. The discounted price is calculated by multiplying the original price with (1 - discount) and rounding it to two decimal places using Math.round(discountedPrice * 100) / 100.
-Line 16 returns the discounted array that has been populated with the discounted  prices.The function discountPrices takes an array of prices and a discount percentage as inputs and returns an array of discounted prices. In this case, it will return the array [50, 100, 150], which are the discounted prices of [100, 200, 300] when a discount of 50% is applied.
+This function will return an array containing the discounted prices of the input array. 
+The input array is [100, 200, 300] and the discount is 0.5, so each price in the array will be multiplied by (1 - 0.5) which gives a 50% discount. 
+The discounted prices are then rounded to two decimal places using Math.round and pushed to a new array called discounted. 
+The final discounted prices array will be [50, 100, 150]. The function doesn't cause any errors.
