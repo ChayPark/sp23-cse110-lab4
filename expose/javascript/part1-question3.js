@@ -1,0 +1,4 @@
+At line 14, the finalPrice variable will be printed to the console.
+The finalPrice variable will be reassigned in each iteration of the for loop, and only the last value of finalPrice will be printed to the console at the end of the function call.
+However, there is a potential error in the code. Specifically, the discountedPrice variable is calculated in each iteration of the for loop, but it is not used outside of the loop. Instead, the finalPrice variable is calculated and assigned inside the loop, and only the last value is returned. This means that the function is not actually returning a list of discounted prices, but rather a list of prices where the last price has been rounded to two decimal places.
+If the input prices array is empty, the function will not enter the for loop and finalPrice will not be defined. In this case, an error will occur when the console attempts to print finalPrice.
