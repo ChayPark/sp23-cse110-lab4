@@ -1,1 +1,20 @@
-
+## Part 2
+Question 1: [What will happen at line 12 and why? If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question1.js)<br>
+Question 2: [What will happen at line 13 and why? If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question2.js)<br>
+Question 3: [What will happen at line 14 and why? If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question3.js)<br>
+Question 4: [What will this function return? Give a brief explanation why. If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question4.js)<br>
+Question 5: [What will happen at line 12 and why?  If the code causes an error, explain why. ^^^ (assume this function is being called like the others: discountPrices([100, 200, 300], 0.5)).](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question5.js)<br>
+Question 6: [What will happen at line 13 and why? If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question6.js)<br>
+Question 7: [What will happen at line 14 and why? If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question7.js)<br>
+Question 8: [What will this function return? Give a brief explanation. If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question8.js)<br>
+Question 9: [What will happen at line 11 and why? If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question9.js)<br>
+Question 10: [What will happen at line 12 and why? If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question10.js)<br>
+Question 11: [What will this function return? Give a brief explanation. If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question11.js)
+Question 12: [Given the above Object, write the notation for:](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question12.js)<br>
+Question 13: [Arithmetic](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question13.js)<br>
+Question 14: [Comparison](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question14.js)<br>
+Question 15: [Explain the difference between the == and === operators.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question15.js)<br>
+Question 16: [Given the above Object, write a for...in loop that will iterate through it and print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question16.js)<br>
+Question 17: [If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question17.js)<br>
+Question 18: [The above program only prints out the time once when executed. Modify this code such that the program prints out the time every second.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question18.js)<br>
+Question 19: [What is the output of the above code?](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question19.js)<br>
