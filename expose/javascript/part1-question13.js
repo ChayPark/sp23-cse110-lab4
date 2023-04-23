@@ -1,0 +1,2 @@
+At line 14, the function will output the last finalPrice value that was calculated in the for loop, which in this case is 150. This is because finalPrice is declared outside of the loop block and is therefore accessible outside of the loop.
+However, this console.log(finalPrice) statement will not affect the returned value of the function, which will still be the array [50, 100, 150] representing the discounted prices after applying the discount rate of 0.5 to the original prices of [100, 200, 300].
