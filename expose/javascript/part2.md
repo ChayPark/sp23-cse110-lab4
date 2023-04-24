@@ -9,7 +9,7 @@ Question 7: [What will happen at line 14 and why? If the code causes an error, e
 Question 8: [What will this function return? Give a brief explanation. If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question8.js)<br>
 Question 9: [What will happen at line 11 and why? If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question9.js)<br>
 Question 10: [What will happen at line 12 and why? If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question10.js)<br>
-Question 11: [What will this function return? Give a brief explanation. If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question11.js)
+Question 11: [What will this function return? Give a brief explanation. If the code causes an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question11.js)<br>
 Question 12: [Given the above Object, write the notation for:](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question12.js)<br>
 Question 13: [Arithmetic](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question13.js)<br>
 Question 14: [Comparison](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question14.js)<br>
