@@ -57,7 +57,15 @@ F. true === Boolean(2) //true because Boolean(2) returns true since any non-zero
 Question 15: [Explain the difference between the == and === operators.]<br><br>
 The == operator compares only the values while ignoring their data types, while the === operator compares both the values and data types.
 <br><br>
-Question 16: [Given the above Object, write a for...in loop that will iterate through it and print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number.]()
+Question 16: [Given the above Object, write a for...in loop that will iterate through it and print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question16.js)<br><br>
 Question 17: [If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development.]<br><br>
-Question 18: [The above program only prints out the time once when executed. Modify this code such that the program prints out the time every second.]<br><br>
-Question 19: [What is the output of the above code?]<br><br>
+We first declare a function named doSomething that takes a number as input and returns that number multiplied by 2.
+We then call modifyArray with an array [1, 2, 3] and the doSomething function as the callback.
+In modifyArray, we create an empty array named newArr and loop through the input array using a for loop.
+For each element in the input array, we call the callback function with the element as input and push the result into the newArr array.
+After looping through all the elements in the input array, we return the newArr array.
+Since doSomething multiplies its input by 2, calling modifyArray with the doSomething callback function will double each element in the input array [1, 2, 3], resulting in the output array [2, 4, 6].<br><br>
+Question 18: [The above program only prints out the time once when executed. Modify this code such that the program prints out the time every second.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part2-question18.js)<br><br>
+Question 19: [What is the output of the above code?]<br><br>When printNums() function is called, it first prints 1 to the console, then schedules a setTimeout function to print 2 after 1000ms (1 second), and schedules another setTimeout function to print 3 after 0ms (immediately). 
+Finally, it prints 4 to the console.
+Therefore, the output will be 1 4 3 2.<br><br>
