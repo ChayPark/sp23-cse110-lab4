@@ -1,7 +1,17 @@
 ## Part 1
-Question 1: [What is printed by line 9? If the code returns an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part1-question1.js)<br>
-Question 2: [What is printed by line 13? If the code returns an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part1-question2.js)<br>
-Question 3: [ What is printed by line 9? If the code returns an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part1-question3.js)<br>
-Question 4: [What is printed by line 13? If the code returns an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part1-question4.js)<br>
-Question 5: [What is printed by line 9? If the code returns an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part1-question5.js)<br>
-Question 6: [What is printed by line 13? If the code returns an error, explain why.](https://github.com/ChayPark/sp23-cse110-lab4/blob/main/expose/javascript/part1-question6.js)<br>
+Question 1: [What is printed by line 9? If the code returns an error, explain why.]<br>
+Line 9 (console.log('final result: ', result);) will print the value of result to the console('values added: 20'). However, in the given code, the console.log statement is outside of the if block, so it will always be executed, even if add is falsy and the result variable has not been defined. Therefore, this situation can cause a ReferenceError will be thrown, since result is not defined.<br>
+Question 2: [What is printed by line 13? If the code returns an error, explain why.]<br>
+Line 13 prints the message "final result: " followed by the value of the result variable('final result: 20'). However, if add is false or any falsy value, the function will immediately return without executing line 7-12, which means that result will not be defined. In that case, line 13 will cause a ReferenceError because the result variable is not defined. If add is true, line 13 will print "final result: " followed by the value of result, which is the sum of num1 and num2 in this case.<br>
+Question 3: [ What is printed by line 9? If the code returns an error, explain why.]<br>
+The output of line 9 will be "values added: 20". 
+This is because when the function is called with sumValues(10, 10, true), the condition in the if statement evaluates to true and the code inside the if block is executed, which adds num1 and num2 and assigns the result to the variable result. 
+Then the message "values added:" followed by the value of result is printed to the console.
+The code will not return an error. If the code is called with sumValues(10, 10, false) or sumValues(10, 10), the if block will not be executed and nothing will be printed to the console.<br>
+Question 4: [What is printed by line 13? If the code returns an error, explain why.]<br>
+when the console.log('final result: ', result); statement is executed outside of the if block, it will throw a reference error because the result variable is not defined in that scope. Therefore, the actual output of the code when sumValues(10, 10, true) is called would be:<br>values added: 20<br>
+Uncaught ReferenceError: result is not defined<br>
+Question 5: [What is printed by line 9? If the code returns an error, explain why.]<br>
+The output of line 9 would be "values added: 20". This is because the function adds the two numbers and logs the result to the console on line 6. However, line 5 to declare result as a constant variable and then try to reassign it on line 7, we will get a TypeError: "Assignment to constant variable" error at runtime. This is because constant variables cannot be reassigned after they are initialized.<br>
+Question 6: [What is printed by line 13? If the code returns an error, explain why.]<br>
+The code will not reach line 13 because of the error on line 7 where the const variable result is being reassigned a new value. Once the error is encountered, the function will terminate and the code on line 13 will not be executed. The code will throw a ReferenceError: result is not defined when it tries to execute the console.log() statement on line 13. This is because the result variable is declared inside the if block on line 3, and therefore only exists within the scope of that block. When the program reaches line 13, it is outside the scope of the if block and the result variable is no longer accessible.<br>
